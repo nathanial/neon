@@ -1,10 +1,10 @@
 {
   "main": "index.js",
   "scripts": {
-    "configure-release": "nw-gyp configure --target=0.13.0 --arch=x64",
-    "build-release": "nw-gyp build --target=0.13.0 --arch=x64",
-    "configure-debug": "nw-gyp configure -d --target=0.13.0 --arch=x64",
-    "build-debug": "nw-gyp build -d --target=0.13.0 --arch=x64"
+    "configure-release": "nw-gyp configure --target=0.17.3 --arch=x64",
+    "build-release": "nw-gyp build --target=0.17.3 --arch=x64",
+    "configure-debug": "nw-gyp configure -d --target=0.17.3 --arch=x64",
+    "build-debug": "nw-gyp build -d --target=0.17.3 --arch=x64"
   },
   "devDependencies": {
     "nan": "^2.3.2",
